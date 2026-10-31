@@ -248,5 +248,12 @@
       "destination": "/materials/stone-slate-tile",
       "permanent": true
     }
-  ]
+  ],
+  "ignoreCommand": "bash scripts/vercel-ignore-build.sh",
+  "git": {
+    "deploymentEnabled": {
+      "docs/*": false,
+      "standards/*": false
+    }
+  }
 }
